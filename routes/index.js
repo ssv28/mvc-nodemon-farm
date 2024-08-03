@@ -12,6 +12,7 @@ router.get('/', function (req, res){
   console.log(jsonData);
   res.render('index', { values: jsonData })
 
+  
 })
 
 router.get("/product", (req, res) => {
